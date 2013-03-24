@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/*
+ *	Project settings
+ */
+/* 
+ * Mixins
+ *
+ * Font sise
+ */
+/*
+ * Vendor
+ */
+/*
+ * Micro clearfix, as per: nicolasgallagher.com/micro-clearfix-hack
+ * Extend the clearfix class with Sass to avoid the `.cf` class appearing over
+ * and over in your markup.
+ */
+.cf {
+  zoom: 1; }
+  .cf:before, .cf:after {
+    content: " ";
+    display: table; }
+  .cf:after {
+    clear: both; }
+
+
+/* Examples
+@media only screen and (min-device-width: 20em) and (max-device-width: 30em){
+	@import "breakpoints/30"
+}
+
+@media only screen and (min-width: 48em){
+	@import "breakpoints/48"
+}*/

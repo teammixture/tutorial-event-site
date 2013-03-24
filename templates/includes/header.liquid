@@ -1,0 +1,8 @@
+<header>
+	<h1>Event Project</h1>
+	<nav>
+		<a href="/" {% if mixture.url == "index" %}class="selected"{% endif %}>Home</a>
+		<a href="/events" {% if mixture.url == "events" %}class="selected"{% endif %}>Events</a>
+		<a href="/about" {% if mixture.url == "about" %}class="selected"{% endif %}>About</a>
+	</nav>
+</header>

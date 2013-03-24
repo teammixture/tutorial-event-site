@@ -1,0 +1,39 @@
+/*
+ * Baseline styles
+ */
+ html{
+	font-family:$default-face;
+	font-size:100%;
+	font-weight:normal;
+	line-height:$line-height-ratio;
+	color:#999;
+	background-color:#fff;
+	-webkit-font-smoothing:antialiased;
+	-webkit-text-size-adjust:none;
+}
+
+html,body{
+	height:100%;
+}
+
+.wrapper{
+	min-height:100%;
+	padding:1em;
+	position:relative;
+}
+
+canvas {
+    -ms-touch-action: double-tap-zoom;
+}
+
+a{
+	color:#00ADF2;
+
+	&:hover{
+		text-decoration:underline;
+	}
+}
+
+.selected{
+	color:#666;
+}

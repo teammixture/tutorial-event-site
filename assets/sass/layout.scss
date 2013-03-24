@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@import "settings";
+@import "generic/mixins";
+@import "default/clearfix";
+
+/* TODO: Add layout breakpoints */
+
+/* Examples
+@media only screen and (min-device-width: 20em) and (max-device-width: 30em){
+	@import "breakpoints/30"
+}
+
+@media only screen and (min-width: 48em){
+	@import "breakpoints/48"
+}*/

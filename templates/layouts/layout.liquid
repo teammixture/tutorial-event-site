@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>{% block title %}Event Project{% endblock %}</title>
+        <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+        {{ "app.css" | asset_url | stylesheet_tag }}
+    </head>
+    <body>
+        <div class="wrapper">
+        	{% include "header" %}
+        	{% block content %}{% endblock %}
+        </div>
+    </body>
+</html>
